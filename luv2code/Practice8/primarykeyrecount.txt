@@ -1,0 +1,11 @@
+
+start new entries in database at a new primary key number---
+ALTER TABLE hb_employee_tracker.employee AUTO_INCREMENT=3000;
+
+
+
+reset primary key to one---
+truncate hb_employee_tracker.employee
+above deletes all rows
+
+go back and query the database to create new entries
